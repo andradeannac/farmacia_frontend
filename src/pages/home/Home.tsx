@@ -1,0 +1,39 @@
+// import ListaProdutos from "../../components/postagem/listapostagens/ListaPostagens"
+// import ModalProduto from "../../components/postagem/modalpostagem/ModalPostagem"
+
+function Home() {
+    return (
+        <>
+            <div className="bg-yellow-200 flex justify-center">
+                <div className='container grid grid-cols-2 text-white'>
+                    <div className="flex flex-col gap-4 items-center justify-center py-4">
+                        <h2 className='text-5xl font-bold'>
+                            Seja Bem Vinde!
+                        </h2>
+                        <p className='text-xl'>
+                            Aqui temos todos os protudos e medicamentos que você procura!
+                        </p>
+
+                        <div className="flex justify-around gap-4">
+
+                            {/* <ModalPostagem /> */}
+                            
+                        </div>
+                    </div>
+
+                    <div className="flex justify-end ">
+                        <img
+                            src="https://img.freepik.com/fotos-gratis/farmaceutica-jovem-hispanica-sorrindo-confiante-em-pe-com-gesto-de-bracos-cruzados-na-farmacia_839833-7087.jpg?semt=ais_hybrid&w=740&q=80"
+                            alt="Imagem Página Home"
+                            className='w-2/3'
+                        />
+                    </div>
+                </div>
+            </div>
+
+            {/* <ListaPostagens /> */}
+        </>
+    )
+}
+
+export default Home
